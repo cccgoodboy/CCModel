@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "NSObject+CCModel.h"
+#import "Person.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSDictionary *dic = @{
+                          @"name":@"ccc",
+                          @"age":@"18",
+                          @"intro":@{
+                                  @"name":@"ccc",
+                                  @"age":@"18"
+                                     },
+                          @"friends":@[@"xiaoming",@"lihua"],
+                          @"dog":@{@"color":@"red"}
+                          };
+    
+    Person *person = [Person modelWithDict:dic];
+    
+    NSLog(@"%@======%@========%@========%@=========%@",person.name,person.age,person.intro,person.friends,person.dog.color);
     
 }
 

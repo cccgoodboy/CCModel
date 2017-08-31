@@ -16,6 +16,8 @@
 		2134DB951F29EFB2007B96AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2134DB931F29EFB2007B96AE /* LaunchScreen.storyboard */; };
 		2134DBA01F29EFB2007B96AE /* CCModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2134DB9F1F29EFB2007B96AE /* CCModelTests.m */; };
 		2134DBAB1F29EFB3007B96AE /* CCModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2134DBAA1F29EFB3007B96AE /* CCModelUITests.m */; };
+		2146E1661F57BCEB0000E736 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2146E1651F57BCEB0000E736 /* Person.m */; };
+		2146E1691F57BD570000E736 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2146E1681F57BD570000E736 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		2134DBA61F29EFB2007B96AE /* CCModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2134DBAA1F29EFB3007B96AE /* CCModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCModelUITests.m; sourceTree = "<group>"; };
 		2134DBAC1F29EFB3007B96AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2146E1641F57BCEB0000E736 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2146E1651F57BCEB0000E736 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2146E1671F57BD570000E736 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		2146E1681F57BD570000E736 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 				2134DB891F29EFB2007B96AE /* AppDelegate.m */,
 				2134DB8B1F29EFB2007B96AE /* ViewController.h */,
 				2134DB8C1F29EFB2007B96AE /* ViewController.m */,
+				2146E1641F57BCEB0000E736 /* Person.h */,
+				2146E1651F57BCEB0000E736 /* Person.m */,
+				2146E1671F57BD570000E736 /* Dog.h */,
+				2146E1681F57BD570000E736 /* Dog.m */,
 				211183CB1F2A2C36005E1384 /* NSObject+CCModel.h */,
 				211183CC1F2A2C36005E1384 /* NSObject+CCModel.m */,
 				2134DB8E1F29EFB2007B96AE /* Main.storyboard */,
@@ -278,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2146E1691F57BD570000E736 /* Dog.m in Sources */,
 				2134DB8D1F29EFB2007B96AE /* ViewController.m in Sources */,
 				2134DB8A1F29EFB2007B96AE /* AppDelegate.m in Sources */,
+				2146E1661F57BCEB0000E736 /* Person.m in Sources */,
 				2134DB871F29EFB2007B96AE /* main.m in Sources */,
 				211183CD1F2A2C36005E1384 /* NSObject+CCModel.m in Sources */,
 			);
